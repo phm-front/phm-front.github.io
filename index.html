@@ -152,6 +152,73 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-vue数据响应式原理实现" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/06/15/vue%E6%95%B0%E6%8D%AE%E5%93%8D%E5%BA%94%E5%BC%8F%E5%8E%9F%E7%90%86%E5%AE%9E%E7%8E%B0/">vue数据响应式原理实现</a>
+    </h1>
+  
+
+        
+        <a href="/2020/06/15/vue%E6%95%B0%E6%8D%AE%E5%93%8D%E5%BA%94%E5%BC%8F%E5%8E%9F%E7%90%86%E5%AE%9E%E7%8E%B0/" class="archive-article-date">
+  	<time datetime="2020-06-15T10:57:14.124Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-06-15</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>​        <strong>vue的数据响应式原理是</strong>数据劫持配合观察者来实现的，那么配合下图会更加的直观</p>
+<p><img src="../images/vue.png" alt=""></p>
+<p>​        从上图可以看到，Oberver通过<code>Object.defineProperty</code>劫持所有数据，当get()被触发时，Dep（依赖收集器）会收集所有属性的watcher（watcher在Compile编译模板时就会创建，每个属性都会有一个相对应的watcher），当set()被触发，会触发Dep中的notify(),通知watcher更新数据upDate(),从而更新视图。以下是简单的代码实现：</p>
+        
+          <a class="article-more-a" href="/2020/06/15/vue%E6%95%B0%E6%8D%AE%E5%93%8D%E5%BA%94%E5%BC%8F%E5%8E%9F%E7%90%86%E5%AE%9E%E7%8E%B0/#more">more >></a>
+        
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2020/06/15/vue%E6%95%B0%E6%8D%AE%E5%93%8D%E5%BA%94%E5%BC%8F%E5%8E%9F%E7%90%86%E5%AE%9E%E7%8E%B0/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-前端面试题分享" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
