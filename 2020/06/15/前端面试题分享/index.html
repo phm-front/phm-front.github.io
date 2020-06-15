@@ -8,13 +8,21 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title>前端面试题分享 | phm-front的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="面试题盒子垂直水平居中方法 盒子没有固定高度:  子绝父相  123top:50%;left:50%;transform:translate(-50%, -50%)  &#x2F;*只需要在父元素上加这三句*&#x2F; display: flex; justify-content: center; &#x2F;*子元素水平居中*&#x2F; align-items: center; &#x2F;*子元素垂直居*&#x2F; 123456  3. 给个定位">
+  <meta name="description" content="面试题盒子垂直水平居中方法 盒子没有固定高度:  子绝父相  123top:50%;left:50%;transform:translate(-50%, -50%)  &#x2F;*只需要在父元素上加这三句*&#x2F; display: flex; justify-content: center; &#x2F;*子元素水平居中*&#x2F; align-items: center; &#x2F;*子元素垂直居*&#x2F; &lt;!--￼1--&gt;">
 <meta property="og:type" content="article">
 <meta property="og:title" content="前端面试题分享">
 <meta property="og:url" content="http://yoursite.com/2020/06/15/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98%E5%88%86%E4%BA%AB/index.html">
 <meta property="og:site_name" content="phm-front的博客">
-<meta property="og:description" content="面试题盒子垂直水平居中方法 盒子没有固定高度:  子绝父相  123top:50%;left:50%;transform:translate(-50%, -50%)  &#x2F;*只需要在父元素上加这三句*&#x2F; display: flex; justify-content: center; &#x2F;*子元素水平居中*&#x2F; align-items: center; &#x2F;*子元素垂直居*&#x2F; 123456  3. 给个定位">
+<meta property="og:description" content="面试题盒子垂直水平居中方法 盒子没有固定高度:  子绝父相  123top:50%;left:50%;transform:translate(-50%, -50%)  &#x2F;*只需要在父元素上加这三句*&#x2F; display: flex; justify-content: center; &#x2F;*子元素水平居中*&#x2F; align-items: center; &#x2F;*子元素垂直居*&#x2F; &lt;!--￼1--&gt;">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="c:%5CUsers%5C%E5%BD%AD%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1582717200055.png">
+<meta property="og:image" content="c:%5CUsers%5C%E5%BD%AD%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1582715534764.png">
+<meta property="og:image" content="https://i.loli.net/2020/01/14/ef6QMCSc29gFAKW.png">
+<meta property="og:image" content="c:%5CUsers%5C%E5%BD%AD%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1583372564641.png">
+<meta property="og:image" content="c:%5CUsers%5C%E5%BD%AD%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1583373581471.png">
+<meta property="og:image" content="c:%5CUsers%5C%E5%BD%AD%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1583373095020.png">
+<meta property="og:image" content="c:%5CUsers%5C%E5%BD%AD%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1583291046136.png">
+<meta property="og:image" content="c:%5CUsers%5C%E5%BD%AD%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1582706873679.png">
 <meta property="og:image" content="c:%5CUsers%5C%E5%BD%AD%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1582707285740.png">
 <meta property="og:image" content="c:%5CUsers%5C%E5%BD%AD%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1582708421900.png">
 <meta property="og:image" content="c:%5CUsers%5C%E5%BD%AD%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1585277649352.png">
@@ -23,6 +31,7 @@
 <meta property="og:image" content="c:%5CUsers%5C%E5%BD%AD%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1583721984307.png">
 <meta property="og:image" content="c:%5CUsers%5C%E5%BD%AD%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1583725817485.png">
 <meta property="og:image" content="c:%5CUsers%5C%E5%BD%AD%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1583725833832.png">
+<meta property="og:image" content="c:%5CUsers%5C%E5%BD%AD%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1583370133610.png">
 <meta property="og:image" content="c:%5CUsers%5C%E5%BD%AD%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1584672560294.png">
 <meta property="og:image" content="c:%5CUsers%5C%E5%BD%AD%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1584708558277.png">
 <meta property="og:image" content="c:%5CUsers%5C%E5%BD%AD%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1584758651831.png">
@@ -42,10 +51,10 @@
 <meta property="og:image" content="c:%5CUsers%5C%E5%BD%AD%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1585052993737.png">
 <meta property="og:image" content="c:%5CUsers%5C%E5%BD%AD%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1591942269699.png">
 <meta property="article:published_time" content="2020-06-15T00:57:43.912Z">
-<meta property="article:modified_time" content="2020-06-15T01:49:21.486Z">
+<meta property="article:modified_time" content="2020-06-15T02:02:44.449Z">
 <meta property="article:author" content="phm-front">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="c:%5CUsers%5C%E5%BD%AD%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1582707285740.png">
+<meta name="twitter:image" content="c:%5CUsers%5C%E5%BD%AD%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1582717200055.png">
   
     <link rel="alternative" href="/atom.xml" title="phm-front的博客" type="application/atom+xml">
   
@@ -205,85 +214,212 @@
 <li><p>盒子没有固定高度:</p>
 <ol>
 <li><p>子绝父相 </p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">top:50%;</span><br><span class="line">left:50%;</span><br><span class="line">transform:translate(-50%, -50%)</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">top:<span class="number">50</span>%;</span><br><span class="line">left:<span class="number">50</span>%;</span><br><span class="line">transform:translate(<span class="number">-50</span>%, <span class="number">-50</span>%)</span><br></pre></td></tr></table></figure>
 </li>
-<li><pre><code>/*只需要在父元素上加这三句*/
+<li><pre><code class="js"><span class="comment">/*只需要在父元素上加这三句*/</span>
 display: flex;
-justify-content: center; /*子元素水平居中*/
-align-items: center; /*子元素垂直居*/
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">  3. 给个定位，然后top,right,bottom,left: 0; margin: auto</span><br><span class="line"></span><br><span class="line">- 盒子有固定高度</span><br><span class="line"></span><br><span class="line">  1. 子绝父相</span><br></pre></td></tr></table></figure>
-top:50%;
-left:50%;
-margin-left:
-margin-top:
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line">  </span><br><span class="line"></span><br><span class="line">#### flex相关:</span><br><span class="line"></span><br><span class="line">-  &#96;flex&#96; 是 &#96;flex-grow&#96;、&#96;flex-shrink&#96;、&#96;flex-basis&#96;的缩写 </span><br><span class="line"></span><br><span class="line">  </span><br><span class="line"></span><br><span class="line">- | *flex-grow*   | 一个数字，规定项目将相对于其他灵活的项目进行扩展的量。       |</span><br><span class="line">  | ------------- | ------------------------------------------------------------ |</span><br><span class="line">  | *flex-shrink* | 一个数字，规定项目将相对于其他灵活的项目进行收缩的量。       |</span><br><span class="line">  | *flex-basis*  | 项目的长度。合法值：&quot;auto&quot;、&quot;inherit&quot; 或一个后跟 &quot;%&quot;、&quot;px&quot;、&quot;em&quot; 或任何其他长度单位的数字。 |</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#96; &lt;!--more--&gt;&#96; </span><br><span class="line"></span><br><span class="line">&#96;more&#96;</span><br><span class="line"></span><br><span class="line">#### em是相对于父元素字体大小决定</span><br><span class="line"></span><br><span class="line">#### rem</span><br><span class="line"></span><br><span class="line">- 是root em,是相对于于HTML字体大小进行布局</span><br><span class="line">- 适配方案： </span><br><span class="line">  - 将设计图(750px)分为10&#x2F;15份（不影响结果），得到HTML字体大小</span><br><span class="line">  - rem &#x3D; 750px &#x2F; html里文字大小</span><br><span class="line"></span><br><span class="line">- 媒体查询：@media screen and(max-width: 800px)</span><br><span class="line"></span><br><span class="line">#### axios和ajax底层实现</span><br><span class="line"></span><br><span class="line">- ajax</span><br></pre></td></tr></table></figure>
-</code></pre></li>
+justify-content: center; <span class="comment">/*子元素水平居中*/</span>
+align-items: center; <span class="comment">/*子元素垂直居*/</span>
+&lt;!--￼<span class="number">1</span>--&gt;
+
+</code></pre>
+</li>
 </ol>
-<p>var Ajax={</p>
-<pre><code>get: function(url, fn) {
-    // XMLHttpRequest对象用于在后台与服务器交换数据
-    var xhr = new XMLHttpRequest();
-    xhr.open(&apos;GET&apos;, url, true);
-    xhr.onreadystatechange = function() {
-    // readyState == 4说明请求已完成
-        if (xhr.readyState == 4 &amp;&amp; xhr.status == 200) {
-        // 从服务器获得数据
-        fn.call(this, xhr.responseText);
-        }
-    };
-    xhr.send();
-}</code></pre><p>}</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">  </span><br><span class="line"></span><br><span class="line">- axios</span><br><span class="line"></span><br><span class="line">  1. axios 原理还是属于 XMLHttpRequest， 因此需要实现一个ajax。 </span><br><span class="line"></span><br><span class="line">  2.  还需要但会一个promise对象来对结果进行处理。</span><br></pre></td></tr></table></figure>
-<p>var Axios = {</p>
-<pre><code>get: function(url) {
-    return new Promise((resolve, reject) =&gt; {
-        var xhr = new XMLHttpRequest();
-        xhr.open(&apos;GET&apos;, url, true);
-        xhr.onreadystatechange = function() {
-            // readyState == 4说明请求已完成
-            if (xhr.readyState == 4 &amp;&amp; xhr.status == 200) {
-                // 从服务器获得数据
-                resolve(xhr.responseText)
-            }
-        };
-        xhr.send();
-    })
-}</code></pre><p> }</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">-</span><br></pre></td></tr></table></figure>
-<p>axios.all([axios(request), axios(request)])<br>.then()//发送并发请求</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">- 请求类型</span><br><span class="line"></span><br><span class="line">  -</span><br></pre></td></tr></table></figure>
-<p>  axios({</p>
-<pre><code>url: &apos;&apos;,
-method: &apos;get&apos;,
-params: {
-    name: &apos;&apos;,
-    id: &apos;&apos;
-}</code></pre><p>  })<br>  axios({</p>
-<pre><code>url: &apos;&apos;,
-method: &apos;post&apos;,
-data: {
-    name: &apos;&apos;,
-    id: &apos;&apos;
-}</code></pre><p>  })</p>
-  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">- 全局配置![1582717200055](C:\Users\彭\AppData\Roaming\Typora\typora-user-images\1582717200055.png)</span><br><span class="line"></span><br><span class="line">- 创建实例</span><br></pre></td></tr></table></figure>
-<p>const instance1 = axios.create({</p>
-<pre><code>baseURL: &apos;http://www.baidu.com&apos;,
-timeout: 5000</code></pre><p>})<br>instance1({</p>
-<pre><code>url: &apos;/home/goods&apos;,
-params: {
-    type,
-    page
-}</code></pre><p>})</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">  </span><br><span class="line"></span><br><span class="line">- ![1582715534764](C:\Users\彭\AppData\Roaming\Typora\typora-user-images\1582715534764.png)</span><br><span class="line"></span><br><span class="line">#### Vue生命周期</span><br><span class="line"></span><br><span class="line">| beforeCreate  | 在实例初始化之后，数据观测和事件配置之前被调用 此时data 和 methods 以及页面的DOM结构都没有初始化 常用于初始化非响应式变量 |</span><br><span class="line">| ------------- | ------------------------------------------------------------ |</span><br><span class="line">| created       | 在实例创建完成后被立即调用，此时data 和 methods已经可以使用 但是页面还没有渲染出来 **常用于简单的axios请求，页面的初始化。** |</span><br><span class="line">| beforeMount   | 在挂载开始之前被调用 此时页面上还看不到真实数据 只是一个模板页面而已 |</span><br><span class="line">| mounted       | el被新创建的vm.$el替换，并挂载到实例上去之后调用该钩子。 数据已经真实渲染到页面上 在这个钩子函数里面**我们可以使用一些第三方的插件** |</span><br><span class="line">| beforeUpdate  | 数据更新时调用，发生在虚拟DOM打补丁之前。 页面上数据还是旧的**适合在更新之前访问现有的DOM，比如手动移除已添加的事件监听器** |</span><br><span class="line">| updated       | 由于数据更改导致的虚拟DOM重新渲染和打补丁，在这之后会调用该钩子。 页面上数据已经替换成最新的 |</span><br><span class="line">| beforeDestroy | 实例销毁之前调用                                             |</span><br><span class="line">| destroyed     | 实例销毁后调用                                               |</span><br><span class="line"></span><br><span class="line"> &lt;img src&#x3D;&quot;https:&#x2F;&#x2F;i.loli.net&#x2F;2020&#x2F;01&#x2F;14&#x2F;ef6QMCSc29gFAKW.png&quot; alt&#x3D;&quot;lifecycle.png&quot; style&#x3D;&quot;zoom:200%;&quot; &#x2F;&gt; </span><br><span class="line"></span><br><span class="line">#### 父子组件通信</span><br><span class="line"></span><br><span class="line">#### 非父子组件通信：</span><br><span class="line"></span><br><span class="line">- EventBus，就是创建一个事件中心，相当于中转站，可以用它来传递事件和接受事件，项目比较小时，用这个比较合适；</span><br></pre></td></tr></table></figure>
-<p>Vue.prototype.$bus = new Vue() //挂载bus属性<br>this.$bus.$emit(‘change’, 参数)//发送<br>this.$bus.$on(‘change’, () =&gt; {})//接收</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">  </span><br><span class="line"></span><br><span class="line">- VueX，创建一个数据仓库，整个项目全局都可以往这个仓库存放数据和读取数据 </span><br><span class="line"></span><br><span class="line">#### Vuex</span><br><span class="line"></span><br><span class="line">- 存放多个组件间共享的状态</span><br><span class="line"></span><br><span class="line">- Getters用来包装state里的变量</span><br><span class="line"></span><br><span class="line">- 调用state和getters中的变量或者计算属性：</span><br></pre></td></tr></table></figure>
-<p>//mapGetters要加大括号<br>import { mapGetters, mapState, mapMutations, mapActions } from “vuex”;<br>computed: {</p>
-<pre><code>...mapGetters([&quot;goodsNum&quot;, &quot;cartList&quot;])</code></pre><p>}<br>methods: {</p>
-<pre><code>...mapMutations([&apos;&apos;, &apos;&apos;])</code></pre><p>}</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">  </span><br><span class="line"></span><br><span class="line">#### keep-alive </span><br><span class="line"></span><br><span class="line">- 是Vue的内置组件，能在组件切换过程中将状态保留在内存中，防止重复渲染DOM。 </span><br><span class="line"></span><br><span class="line">- 当引入keep-alive的时候，页面第一次进入，钩子的触发顺序created-&gt; mounted-&gt; activated，退出时触发deactivated。当再次进入（前进或者后退）时，只触发activated。 </span><br><span class="line"></span><br><span class="line">#### 跨域</span><br><span class="line"></span><br><span class="line">- Webpack proxy在webpack中配置（缺点：打包后消失，线上不起作用）</span><br><span class="line"></span><br><span class="line">  ![1583372564641](C:\Users\彭\AppData\Roaming\Typora\typora-user-images\1583372564641.png)</span><br><span class="line"></span><br><span class="line">- nginx反向代理</span><br><span class="line"></span><br><span class="line">- Webpack plugin插件（后端配置）</span><br><span class="line"></span><br><span class="line">  ![1583373581471](C:\Users\彭\AppData\Roaming\Typora\typora-user-images\1583373581471.png)</span><br><span class="line"></span><br><span class="line">- 不可访问不同协议、域名、端口的域(一个域不可访问另一个域的资源)</span><br><span class="line"></span><br><span class="line">- 跨域资源共享（CORS）服务端设置Access-Control-Allow-Origin即可，前端无须设置，若要带cookie请求：前后端都需要设置 </span><br><span class="line"></span><br><span class="line">  ![1583373095020](C:\Users\彭\AppData\Roaming\Typora\typora-user-images\1583373095020.png)</span><br><span class="line"></span><br><span class="line">- 1. jsonp。3.在服务器端进行访问，后端无同源限制</span><br><span class="line"></span><br><span class="line">#### this指向及改变指向</span><br><span class="line"></span><br><span class="line">- var a&#x3D;b&#x3D;3 &#x2F;&#x2F;相当于 b&#x3D;3  var a&#x3D;b</span><br><span class="line">- 函数内为定义的变量会向上一级作用域找，找不到会直接定义（非严格模式）</span><br><span class="line"></span><br><span class="line">- this指向最终调用者</span><br><span class="line"></span><br><span class="line">  ![1583291046136](C:\Users\彭\AppData\Roaming\Typora\typora-user-images\1583291046136.png)</span><br><span class="line"></span><br><span class="line">- 构造函数和原型对象的this都指向实例对象</span><br><span class="line"></span><br><span class="line">- 类中constructor中的this指向实例对象，其他方法中的this指向调用者</span><br><span class="line"></span><br><span class="line">- 改变this指向</span><br><span class="line"></span><br><span class="line">  - 声明一个全局变量用来存储this，而后直接使用该全局即可</span><br><span class="line"></span><br><span class="line">  - call() 使用时调用函数</span><br><span class="line"></span><br><span class="line">    - fn.call(改变指向的对象， 参数)</span><br><span class="line">    - 主要作用可以实现构造函数的继承：![1582706873679](C:\Users\彭\AppData\Roaming\Typora\typora-user-images\1582706873679.png)</span><br><span class="line"></span><br><span class="line">  - call(）的实现原理：</span><br><span class="line"></span><br><span class="line">    &#96;&#96;&#96;javascript</span><br><span class="line">    Function.prototype.mycall &#x3D; function(ctx) &#123;</span><br><span class="line">        ctx &#x3D; ctx || window</span><br><span class="line">      ctx.fn &#x3D; this &#x2F;&#x2F;this指向的是mycall的调用者 </span><br><span class="line">        const arg &#x3D; [...arguments].slice(1)&#x2F;&#x2F;获取mycall传递的参数</span><br><span class="line">      const result &#x3D; ctx.fn([...arg])</span><br><span class="line">        delete ctx.fn</span><br><span class="line">      return result</span><br><span class="line">    &#125;</span><br><span class="line">    const a &#x3D; &#123;</span><br><span class="line">        fun: function(a, b) &#123;</span><br><span class="line">          console.log(a + b)</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    b &#x3D; a.fun</span><br><span class="line">    b.mycall(a, 1, 2)</span><br><span class="line">    function mycall(contex) &#123;</span><br><span class="line">        contex &#x3D; contex || window;</span><br><span class="line">        contex.fn &#x3D; this;</span><br><span class="line">        const arg &#x3D; arguments.slice(1);</span><br><span class="line">        const result &#x3D; contex.fn(...arg);</span><br><span class="line">        delete contex.fn;</span><br><span class="line">        return result;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p><code>&lt;!--more--&gt;</code> </p>
+<p><code>more</code></p>
+<a id="more"></a>
+
+<p>more</p>
+<h4 id="flex相关"><a href="#flex相关" class="headerlink" title="flex相关:"></a>flex相关:</h4><ul>
+<li><code>flex</code> 是 <code>flex-grow</code>、<code>flex-shrink</code>、<code>flex-basis</code>的缩写 </li>
+</ul>
+<ul>
+<li><table>
+<thead>
+<tr>
+<th><em>flex-grow</em></th>
+<th>一个数字，规定项目将相对于其他灵活的项目进行扩展的量。</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><em>flex-shrink</em></td>
+<td>一个数字，规定项目将相对于其他灵活的项目进行收缩的量。</td>
+</tr>
+<tr>
+<td><em>flex-basis</em></td>
+<td>项目的长度。合法值：”auto”、”inherit” 或一个后跟 “%”、”px”、”em” 或任何其他长度单位的数字。</td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+<h4 id="em是相对于父元素字体大小决定"><a href="#em是相对于父元素字体大小决定" class="headerlink" title="em是相对于父元素字体大小决定"></a>em是相对于父元素字体大小决定</h4><h4 id="rem"><a href="#rem" class="headerlink" title="rem"></a>rem</h4><ul>
+<li><p>是root em,是相对于于HTML字体大小进行布局</p>
+</li>
+<li><p>适配方案： </p>
+<ul>
+<li>将设计图(750px)分为10/15份（不影响结果），得到HTML字体大小</li>
+<li>rem = 750px / html里文字大小</li>
+</ul>
+</li>
+<li><p>媒体查询：@media screen and(max-width: 800px)</p>
+</li>
+</ul>
+<h4 id="axios和ajax底层实现"><a href="#axios和ajax底层实现" class="headerlink" title="axios和ajax底层实现"></a>axios和ajax底层实现</h4><ul>
+<li><p>ajax</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">var</span> Ajax=&#123;</span><br><span class="line">    <span class="keyword">get</span>: function(url, fn) &#123;</span><br><span class="line">        <span class="comment">// XMLHttpRequest对象用于在后台与服务器交换数据</span></span><br><span class="line">        <span class="keyword">var</span> xhr = <span class="keyword">new</span> XMLHttpRequest();</span><br><span class="line">        xhr.open(<span class="string">'GET'</span>, url, <span class="literal">true</span>);</span><br><span class="line">        xhr.onreadystatechange = <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">        <span class="comment">// readyState == 4说明请求已完成</span></span><br><span class="line">            <span class="keyword">if</span> (xhr.readyState == <span class="number">4</span> &amp;&amp; xhr.status == <span class="number">200</span>) &#123;</span><br><span class="line">            <span class="comment">// 从服务器获得数据</span></span><br><span class="line">            fn.call(<span class="keyword">this</span>, xhr.responseText);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;;</span><br><span class="line">        xhr.send();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 
 
+</li>
+</ul>
+<ul>
+<li><p>axios</p>
+<ol>
+<li><p>axios 原理还是属于 XMLHttpRequest， 因此需要实现一个ajax。 </p>
+</li>
+<li><p>还需要但会一个promise对象来对结果进行处理。</p>
+</li>
+</ol>
+</li>
+</ul>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> Axios = &#123;</span><br><span class="line">        <span class="keyword">get</span>: function(url) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="keyword">new</span> <span class="built_in">Promise</span>(<span class="function">(<span class="params">resolve, reject</span>) =&gt;</span> &#123;</span><br><span class="line">                <span class="keyword">var</span> xhr = <span class="keyword">new</span> XMLHttpRequest();</span><br><span class="line">                xhr.open(<span class="string">'GET'</span>, url, <span class="literal">true</span>);</span><br><span class="line">                xhr.onreadystatechange = <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">                    <span class="comment">// readyState == 4说明请求已完成</span></span><br><span class="line">                    <span class="keyword">if</span> (xhr.readyState == <span class="number">4</span> &amp;&amp; xhr.status == <span class="number">200</span>) &#123;</span><br><span class="line">                        <span class="comment">// 从服务器获得数据</span></span><br><span class="line">                        resolve(xhr.responseText)</span><br><span class="line">                    &#125;</span><br><span class="line">                &#125;;</span><br><span class="line">                xhr.send();</span><br><span class="line">            &#125;)</span><br><span class="line">        &#125;</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<ul>
+<li><pre><code class="js">axios.all([axios(request), axios(request)])
+.then()<span class="comment">//发送并发请求</span>
+&lt;!--￼<span class="number">4</span>--&gt;</code></pre>
+</li>
+<li><p>全局配置<img src="C:%5CUsers%5C%E5%BD%AD%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1582717200055.png" alt="1582717200055"></p>
+</li>
+<li><p>创建实例</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> instance1 = axios.create(&#123;</span><br><span class="line">	baseURL: <span class="string">'http://www.baidu.com'</span>,</span><br><span class="line">    timeout: <span class="number">5000</span></span><br><span class="line">&#125;)</span><br><span class="line">instance1(&#123;</span><br><span class="line">	url: <span class="string">'/home/goods'</span>,</span><br><span class="line">	params: &#123;</span><br><span class="line">		type,</span><br><span class="line">		page</span><br><span class="line">	&#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+</ul>
+<ul>
+<li><img src="C:%5CUsers%5C%E5%BD%AD%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1582715534764.png" alt="1582715534764"></li>
+</ul>
+<h4 id="Vue生命周期"><a href="#Vue生命周期" class="headerlink" title="Vue生命周期"></a>Vue生命周期</h4><table>
+<thead>
+<tr>
+<th>beforeCreate</th>
+<th>在实例初始化之后，数据观测和事件配置之前被调用 此时data 和 methods 以及页面的DOM结构都没有初始化 常用于初始化非响应式变量</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>created</td>
+<td>在实例创建完成后被立即调用，此时data 和 methods已经可以使用 但是页面还没有渲染出来 <strong>常用于简单的axios请求，页面的初始化。</strong></td>
+</tr>
+<tr>
+<td>beforeMount</td>
+<td>在挂载开始之前被调用 此时页面上还看不到真实数据 只是一个模板页面而已</td>
+</tr>
+<tr>
+<td>mounted</td>
+<td>el被新创建的vm.$el替换，并挂载到实例上去之后调用该钩子。 数据已经真实渲染到页面上 在这个钩子函数里面<strong>我们可以使用一些第三方的插件</strong></td>
+</tr>
+<tr>
+<td>beforeUpdate</td>
+<td>数据更新时调用，发生在虚拟DOM打补丁之前。 页面上数据还是旧的<strong>适合在更新之前访问现有的DOM，比如手动移除已添加的事件监听器</strong></td>
+</tr>
+<tr>
+<td>updated</td>
+<td>由于数据更改导致的虚拟DOM重新渲染和打补丁，在这之后会调用该钩子。 页面上数据已经替换成最新的</td>
+</tr>
+<tr>
+<td>beforeDestroy</td>
+<td>实例销毁之前调用</td>
+</tr>
+<tr>
+<td>destroyed</td>
+<td>实例销毁后调用</td>
+</tr>
+</tbody></table>
+ <img src="https://i.loli.net/2020/01/14/ef6QMCSc29gFAKW.png" alt="lifecycle.png" style="zoom:200%;" /> 
+
+<h4 id="父子组件通信"><a href="#父子组件通信" class="headerlink" title="父子组件通信"></a>父子组件通信</h4><h4 id="非父子组件通信："><a href="#非父子组件通信：" class="headerlink" title="非父子组件通信："></a>非父子组件通信：</h4><ul>
+<li><p>EventBus，就是创建一个事件中心，相当于中转站，可以用它来传递事件和接受事件，项目比较小时，用这个比较合适；</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Vue.prototype.$bus = <span class="keyword">new</span> Vue() <span class="comment">//挂载bus属性</span></span><br><span class="line"><span class="keyword">this</span>.$bus.$emit(<span class="string">'change'</span>, 参数)<span class="comment">//发送</span></span><br><span class="line"><span class="keyword">this</span>.$bus.$on(<span class="string">'change'</span>, () =&gt; &#123;&#125;)<span class="comment">//接收</span></span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+</ul>
+<ul>
+<li>VueX，创建一个数据仓库，整个项目全局都可以往这个仓库存放数据和读取数据 </li>
+</ul>
+<h4 id="Vuex"><a href="#Vuex" class="headerlink" title="Vuex"></a>Vuex</h4><ul>
+<li><p>存放多个组件间共享的状态</p>
+</li>
+<li><p>Getters用来包装state里的变量</p>
+</li>
+<li><p>调用state和getters中的变量或者计算属性：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//mapGetters要加大括号</span></span><br><span class="line"><span class="keyword">import</span> &#123; mapGetters, mapState, mapMutations, mapActions &#125; <span class="keyword">from</span> <span class="string">"vuex"</span>;</span><br><span class="line">computed: &#123;</span><br><span class="line">    ...mapGetters([<span class="string">"goodsNum"</span>, <span class="string">"cartList"</span>])</span><br><span class="line">&#125;</span><br><span class="line">methods: &#123;</span><br><span class="line">	...mapMutations([<span class="string">''</span>, <span class="string">''</span>])</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+</ul>
+<h4 id="keep-alive"><a href="#keep-alive" class="headerlink" title="keep-alive"></a>keep-alive</h4><ul>
+<li><p>是Vue的内置组件，能在组件切换过程中将状态保留在内存中，防止重复渲染DOM。 </p>
+</li>
+<li><p>当引入keep-alive的时候，页面第一次进入，钩子的触发顺序created-&gt; mounted-&gt; activated，退出时触发deactivated。当再次进入（前进或者后退）时，只触发activated。 </p>
+</li>
+</ul>
+<h4 id="跨域"><a href="#跨域" class="headerlink" title="跨域"></a>跨域</h4><ul>
+<li><p>Webpack proxy在webpack中配置（缺点：打包后消失，线上不起作用）</p>
+<p><img src="C:%5CUsers%5C%E5%BD%AD%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1583372564641.png" alt="1583372564641"></p>
+</li>
+<li><p>nginx反向代理</p>
+</li>
+<li><p>Webpack plugin插件（后端配置）</p>
+<p><img src="C:%5CUsers%5C%E5%BD%AD%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1583373581471.png" alt="1583373581471"></p>
+</li>
+<li><p>不可访问不同协议、域名、端口的域(一个域不可访问另一个域的资源)</p>
+</li>
+<li><p>跨域资源共享（CORS）服务端设置Access-Control-Allow-Origin即可，前端无须设置，若要带cookie请求：前后端都需要设置 </p>
+<p><img src="C:%5CUsers%5C%E5%BD%AD%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1583373095020.png" alt="1583373095020"></p>
+</li>
+<li><ol>
+<li>jsonp。3.在服务器端进行访问，后端无同源限制</li>
+</ol>
+</li>
+</ul>
+<h4 id="this指向及改变指向"><a href="#this指向及改变指向" class="headerlink" title="this指向及改变指向"></a>this指向及改变指向</h4><ul>
+<li><p>var a=b=3 //相当于 b=3  var a=b</p>
+</li>
+<li><p>函数内为定义的变量会向上一级作用域找，找不到会直接定义（非严格模式）</p>
+</li>
+<li><p>this指向最终调用者</p>
+<p><img src="C:%5CUsers%5C%E5%BD%AD%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1583291046136.png" alt="1583291046136"></p>
+</li>
+<li><p>构造函数和原型对象的this都指向实例对象</p>
+</li>
+<li><p>类中constructor中的this指向实例对象，其他方法中的this指向调用者</p>
+</li>
+<li><p>改变this指向</p>
+<ul>
+<li><p>声明一个全局变量用来存储this，而后直接使用该全局即可</p>
+</li>
+<li><p>call() 使用时调用函数</p>
+<ul>
+<li>fn.call(改变指向的对象， 参数)</li>
+<li>主要作用可以实现构造函数的继承：<img src="C:%5CUsers%5C%E5%BD%AD%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1582706873679.png" alt="1582706873679"></li>
+</ul>
+</li>
+<li><p>call(）的实现原理：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Function</span>.prototype.mycall = <span class="function"><span class="keyword">function</span>(<span class="params">ctx</span>) </span>&#123;</span><br><span class="line">    ctx = ctx || <span class="built_in">window</span></span><br><span class="line">  ctx.fn = <span class="keyword">this</span> <span class="comment">//this指向的是mycall的调用者 </span></span><br><span class="line">    <span class="keyword">const</span> arg = [...arguments].slice(<span class="number">1</span>)<span class="comment">//获取mycall传递的参数</span></span><br><span class="line">  <span class="keyword">const</span> result = ctx.fn([...arg])</span><br><span class="line">    <span class="keyword">delete</span> ctx.fn</span><br><span class="line">  <span class="keyword">return</span> result</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">const</span> a = &#123;</span><br><span class="line">    fun: <span class="function"><span class="keyword">function</span>(<span class="params">a, b</span>) </span>&#123;</span><br><span class="line">      <span class="built_in">console</span>.log(a + b)</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">b = a.fun</span><br><span class="line">b.mycall(a, <span class="number">1</span>, <span class="number">2</span>)</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">mycall</span>(<span class="params">contex</span>) </span>&#123;</span><br><span class="line">    contex = contex || <span class="built_in">window</span>;</span><br><span class="line">    contex.fn = <span class="keyword">this</span>;</span><br><span class="line">    <span class="keyword">const</span> arg = <span class="built_in">arguments</span>.slice(<span class="number">1</span>);</span><br><span class="line">    <span class="keyword">const</span> result = contex.fn(...arg);</span><br><span class="line">    <span class="keyword">delete</span> contex.fn;</span><br><span class="line">    <span class="keyword">return</span> result;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+</ul>
 </li>
 </ul>
 <ul>
@@ -354,7 +490,7 @@ params: {
 <li><p>类抽象了对象的公共部分，它泛指某一大类（class），对象特质某一个，通过类实例化一个具体的对象；constructor是类中必须要有函数，相当于构造函数，接收传递过来的参数，同时返回实例对象，会自动调用</p>
 </li>
 <li><p>创建类</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">class Name&#123;</span><br><span class="line">	constructor(形参) &#123;		</span><br><span class="line">		this.uname &#x3D; 形参</span><br><span class="line">	&#125;</span><br><span class="line">	sing() &#123;&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Name</span></span>&#123;</span><br><span class="line">	<span class="keyword">constructor</span>(形参) &#123;		</span><br><span class="line">		<span class="keyword">this</span>.uname = 形参</span><br><span class="line">	&#125;</span><br><span class="line">	sing() &#123;&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>类中的函数间不用加逗号</p>
 </li>
@@ -362,7 +498,7 @@ params: {
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Name</span></span>&#123;</span><br><span class="line">	<span class="keyword">constructor</span>(形参) &#123;		</span><br><span class="line">		<span class="keyword">this</span>.uname = 形参<span class="comment">//实例属性</span></span><br><span class="line">	&#125;</span><br><span class="line">    <span class="keyword">static</span> age = <span class="number">18</span><span class="comment">//静态属性，可通过Name.age直接访问</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>类的继承</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">class Father &#123;</span><br><span class="line">	constructor(x, y) &#123;</span><br><span class="line">		this.x &#x3D; x;</span><br><span class="line">		this.y &#x3D; y</span><br><span class="line">	&#125;</span><br><span class="line">	say() &#123;</span><br><span class="line">		return &#39;lalala&#39;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line">class Son entends Father &#123;</span><br><span class="line">	constructor(x, y) &#123;</span><br><span class="line">		super(x, y)&#x2F;&#x2F;调用父类中的构造函数,必须在子类this的前面</span><br><span class="line">		this.x &#x3D; x;</span><br><span class="line">		this.y &#x3D; y</span><br><span class="line">	&#125;</span><br><span class="line">	say() &#123;</span><br><span class="line">		super.say()&#x2F;&#x2F;调用父亲中的普通方法</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Father</span> </span>&#123;</span><br><span class="line">	<span class="keyword">constructor</span>(x, y) &#123;</span><br><span class="line">		<span class="keyword">this</span>.x = x;</span><br><span class="line">		<span class="keyword">this</span>.y = y</span><br><span class="line">	&#125;</span><br><span class="line">	say() &#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="string">'lalala'</span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Son</span> <span class="title">entends</span> <span class="title">Father</span> </span>&#123;</span><br><span class="line">	<span class="keyword">constructor</span>(x, y) &#123;</span><br><span class="line">		<span class="keyword">super</span>(x, y)<span class="comment">//调用父类中的构造函数,必须在子类this的前面</span></span><br><span class="line">		<span class="keyword">this</span>.x = x;</span><br><span class="line">		<span class="keyword">this</span>.y = y</span><br><span class="line">	&#125;</span><br><span class="line">	say() &#123;</span><br><span class="line">		<span class="keyword">super</span>.say()<span class="comment">//调用父亲中的普通方法</span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>super关键字</p>
 <p><img src="C:%5CUsers%5C%E5%BD%AD%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1585277649352.png" alt="1585277649352"></p>
@@ -384,7 +520,7 @@ params: {
 <li><p>触发BFC，给父级添加：overflow:hidden或者display：table-cell或者display：block或者position：fixed</p>
 </li>
 <li><p>伪元素：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">.clearfix::after &#123;</span><br><span class="line">	content: &#39;&#39;,</span><br><span class="line">	display: block,</span><br><span class="line">	height: 0,</span><br><span class="line">	clear: both,</span><br><span class="line">	visibility: hidden</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.clearfix</span><span class="selector-pseudo">::after</span> &#123;</span><br><span class="line">	<span class="attribute">content</span>: <span class="string">''</span>,</span><br><span class="line">	display: block,</span><br><span class="line">	height: <span class="number">0</span>,</span><br><span class="line">	clear: both,</span><br><span class="line">	visibility: hidden</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 
 
@@ -394,9 +530,9 @@ params: {
 <li>给图片添加vertical-align</li>
 <li>把图片转换为块级元素</li>
 </ol>
-<h4 id="单行文字省略号显示："><a href="#单行文字省略号显示：" class="headerlink" title="单行文字省略号显示："></a>单行文字省略号显示：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">overflow: hidden,</span><br><span class="line">white-space: nowrap,&#x2F;&#x2F;文字一行内显示，不换行</span><br><span class="line">text-overflow: ellipsis</span><br></pre></td></tr></table></figure>
+<h4 id="单行文字省略号显示："><a href="#单行文字省略号显示：" class="headerlink" title="单行文字省略号显示："></a>单行文字省略号显示：</h4><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">overflow</span>: <span class="selector-tag">hidden</span>,</span><br><span class="line">white-space: nowrap,//文字一行内显示，不换行</span><br><span class="line"><span class="selector-tag">text-overflow</span>: <span class="selector-tag">ellipsis</span></span><br></pre></td></tr></table></figure>
 
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">overflow: hidden;</span><br><span class="line">display: -webkit-box;</span><br><span class="line">-webkit-line-clamp: 2;&#x2F;&#x2F;第二行文字超出省略号显示</span><br><span class="line">-webkit-box-orient: vertical;</span><br></pre></td></tr></table></figure>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">overflow</span>: <span class="selector-tag">hidden</span>;</span><br><span class="line"><span class="selector-tag">display</span>: <span class="selector-tag">-webkit-box</span>;</span><br><span class="line">-webkit-line-clamp: 2;//第二行文字超出省略号显示</span><br><span class="line"><span class="selector-tag">-webkit-box-orient</span>: <span class="selector-tag">vertical</span>;</span><br></pre></td></tr></table></figure>
 
 <h4 id="各选择器权重："><a href="#各选择器权重：" class="headerlink" title="各选择器权重："></a>各选择器权重：</h4><ul>
 <li>标签内设置样式</li>
@@ -426,7 +562,7 @@ params: {
 <li><p><img src="C:%5CUsers%5C%E5%BD%AD%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1582696729925.png" alt="1582696729925"></p>
 </li>
 <li><p>原型对象可以用来拓展内置对象</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Array.prototype.sum &#x3D; function() &#123;</span><br><span class="line">	var sum &#x3D; 0;</span><br><span class="line">	for(var i &#x3D; 0, i &lt; this.length, i++) &#123;</span><br><span class="line">		sum +&#x3D; this[i]</span><br><span class="line">	&#125;</span><br><span class="line">	return sum</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Array</span>.prototype.sum = <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">	<span class="keyword">var</span> sum = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">var</span> i = <span class="number">0</span>, i &lt; <span class="keyword">this</span>.length, i++) &#123;</span><br><span class="line">		sum += <span class="keyword">this</span>[i]</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> sum</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 
 
@@ -471,120 +607,113 @@ params: {
 <li><img src="C:%5CUsers%5C%E5%BD%AD%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1583725833832.png" alt="1583725833832"></li>
 </ul>
 <h4 id="四-Promise的使用"><a href="#四-Promise的使用" class="headerlink" title="四:Promise的使用"></a>四:Promise的使用</h4><ul>
-<li><pre><code>new Promise((resolve, reject) =&gt; {
-      setTimeout(() =&gt; {
-        resolve(1)
-      }, 1000);
-    }).then(value =&gt; {
-      console.log(&quot;第一次异步任务的值：&quot; + value)
-      return new Promise((resolve, reject) =&gt; {
-        setTimeout(() =&gt; {
-          resolve(value + 1)
-        }, 1000)
+<li><pre><code class="js"><span class="keyword">new</span> <span class="built_in">Promise</span>(<span class="function">(<span class="params">resolve, reject</span>) =&gt;</span> {
+      setTimeout(<span class="function"><span class="params">()</span> =&gt;</span> {
+        resolve(<span class="number">1</span>)
+      }, <span class="number">1000</span>);
+    }).then(<span class="function"><span class="params">value</span> =&gt;</span> {
+      <span class="built_in">console</span>.log(<span class="string">"第一次异步任务的值："</span> + value)
+      <span class="keyword">return</span> <span class="keyword">new</span> <span class="built_in">Promise</span>(<span class="function">(<span class="params">resolve, reject</span>) =&gt;</span> {
+        setTimeout(<span class="function"><span class="params">()</span> =&gt;</span> {
+          resolve(value + <span class="number">1</span>)
+        }, <span class="number">1000</span>)
       })
-    }).then(value =&gt; {
-      console.log(&quot;第二次异步任务的值：&quot; + value);
-      return new Promise((resolve, reject) =&gt; {
-        setTimeout(() =&gt; {
-          resolve(value + 1)
-        }, 1000)
+    }).then(<span class="function"><span class="params">value</span> =&gt;</span> {
+      <span class="built_in">console</span>.log(<span class="string">"第二次异步任务的值："</span> + value);
+      <span class="keyword">return</span> <span class="keyword">new</span> <span class="built_in">Promise</span>(<span class="function">(<span class="params">resolve, reject</span>) =&gt;</span> {
+        setTimeout(<span class="function"><span class="params">()</span> =&gt;</span> {
+          resolve(value + <span class="number">1</span>)
+        }, <span class="number">1000</span>)
       })
-    }).then(value =&gt; {
-      console.log(&quot;第三次异步任务的值：&quot; + value)
+    }).then(<span class="function"><span class="params">value</span> =&gt;</span> {
+      <span class="built_in">console</span>.log(<span class="string">"第三次异步任务的值："</span> + value)
     })
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">![1583807136247](C:\Users\彭\AppData\Roaming\Typora\typora-user-images\1583807136247.png)</span><br><span class="line"></span><br><span class="line">![1583807158592](C:\Users\彭\AppData\Roaming\Typora\typora-user-images\1583807158592.png)</span><br></pre></td></tr></table></figure>
-//返回一个padding状态的Promise对象
-then(value =&gt; {
-  return new Promise(() =&gt; {})
+&lt;!--￼<span class="number">23</span>--&gt;
+<span class="comment">//返回一个padding状态的Promise对象</span>
+then(<span class="function"><span class="params">value</span> =&gt;</span> {
+  <span class="keyword">return</span> <span class="keyword">new</span> <span class="built_in">Promise</span>(<span class="function"><span class="params">()</span> =&gt;</span> {})
 })
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">#### 五：异步之宏队列和微队列</span><br><span class="line"></span><br><span class="line">![1583809291423](C:\Users\彭\AppData\Roaming\Typora\typora-user-images\1583809291423.png)</span><br><span class="line"></span><br><span class="line">#### 六：async&#x2F;await</span><br><span class="line"></span><br><span class="line">![1583808922076](C:\Users\彭\AppData\Roaming\Typora\typora-user-images\1583808922076.png)</span><br><span class="line"></span><br><span class="line">#### 七: 相关面试题</span><br><span class="line"></span><br><span class="line">- ![1583810460675](C:\Users\彭\AppData\Roaming\Typora\typora-user-images\1583810460675.png)输出结果： 2	5	3	4	1</span><br><span class="line">- &lt;img src&#x3D;&quot;C:\Users\彭\AppData\Roaming\Typora\typora-user-images\1583810821245.png&quot; alt&#x3D;&quot;1583810821245&quot; style&#x3D;&quot;zoom:80%;&quot; &#x2F;&gt;输出结果：3 7 4 1 2 5</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">#### 登录业务的相关技术点</span><br><span class="line"></span><br><span class="line">- 通过session在服务器段记录状态，cookie在服务端记录状态</span><br><span class="line"></span><br><span class="line">  - 适合在前端和服务器端无跨域问题时使用</span><br><span class="line"></span><br><span class="line">- 通过token方式维持状态</span><br><span class="line"></span><br><span class="line">  - 适合在前端和服务器端有跨域问题时使用</span><br><span class="line">- 原理：![1582780536653](C:\Users\彭\AppData\Roaming\Typora\typora-user-images\1582780536653.png)</span><br><span class="line"></span><br><span class="line">#### var 变量提升</span><br><span class="line"></span><br><span class="line">-</span><br></pre></td></tr></table></figure>
-function fn() {
-    //变量提升
-    //var a = undefined
-    console.log(a)//undefined
-    var a = 10 //a = 10
-    console.log(a)//10
+&lt;!--￼<span class="number">24</span>--&gt;</code></pre>
+</li>
+<li><p>函数的提升</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">函数的提升后的位置是在变量提升后的位置之后的</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">foo</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(a);</span><br><span class="line">  <span class="keyword">var</span> a = <span class="number">1</span>;</span><br><span class="line">  <span class="built_in">console</span>.log(a);</span><br><span class="line">  <span class="function"><span class="keyword">function</span> <span class="title">a</span>(<span class="params"></span>) </span>&#123;&#125;</span><br><span class="line">  <span class="built_in">console</span>.log(a);</span><br><span class="line">&#125;</span><br><span class="line">foo();</span><br><span class="line"><span class="comment">//提升之后</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">foo</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">	<span class="keyword">var</span> a;</span><br><span class="line">	<span class="function"><span class="keyword">function</span> <span class="title">a</span>(<span class="params"></span>) </span>&#123;&#125;</span><br><span class="line">  	<span class="built_in">console</span>.log(a);<span class="comment">//a()</span></span><br><span class="line">  	a = <span class="number">1</span>;</span><br><span class="line">  	<span class="built_in">console</span>.log(a); <span class="comment">// 1</span></span><br><span class="line"> 	<span class="built_in">console</span>.log(a); <span class="comment">// 1</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>函数无调用者，作用域是全局</p>
+</li>
+<li><p><img src="C:%5CUsers%5C%E5%BD%AD%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1583370133610.png" alt="1583370133610"></p>
+<p>var a = b = 3 // b = 3,  var a = b</p>
+<p>b = 3 ,函数内没有声明，所以往上一级找，到全局也没有，自动给定义一个b ,所以b在全局作用域下</p>
+</li>
+</ul>
+<h4 id="闭包"><a href="#闭包" class="headerlink" title="闭包"></a>闭包</h4><ul>
+<li><p>能够读取其他函数内部变量的函数。 *<em>或简单理解为定义在一个函数内部的函数，内部函数持有外部函数内变量的引用。 *</em></p>
+</li>
+<li><p>闭包是由函数以及创建该函数的词法环境组合而成。<strong>这个环境包含了这个闭包创建时所能访问的所有局部变量，这些局部变量不会被销毁，可以继续使用</strong> </p>
+</li>
+<li><pre><code class="javascript"><span class="keyword">for</span>(<span class="keyword">var</span> i = <span class="number">1</span>, i &lt;= <span class="number">5</span>, i ++) {
+    setTimeout(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>{
+        <span class="built_in">console</span>.log(i)<span class="comment">// 66666</span>
+    }, <span class="number">1000</span>)
 }
-fn()
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">- 函数的提升</span><br></pre></td></tr></table></figure>
-函数的提升后的位置是在变量提升后的位置之后的
-function foo() {
-  console.log(a);
-  var a = 1;
-  console.log(a);
-  function a() {}
-  console.log(a);
+<span class="comment">//利用闭包使函数输出612345</span>
+<span class="keyword">for</span>(<span class="keyword">var</span> i = <span class="number">1</span>, i &lt;= <span class="number">5</span>, i ++) {
+    (<span class="function"><span class="keyword">function</span>(<span class="params">i</span>) </span>{
+        setTimeout(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>{
+            <span class="built_in">console</span>.log(i)<span class="comment">// 12345</span>
+        }, <span class="number">1000</span>） 
+    })(i)
 }
-foo();
-//提升之后
-function foo() {
-    var a;
-    function a() {}
-      console.log(a);//a()
-      a = 1;
-      console.log(a); // 1
-     console.log(a); // 1
+<span class="built_in">console</span>.log(i)<span class="comment">//6</span>
+<span class="comment">//利用函数</span>
+<span class="keyword">var</span> outPut = <span class="function"><span class="keyword">function</span>(<span class="params">i</span>) </span>{
+    setTimeout(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>{
+        <span class="built_in">console</span>.log(i)
+    },<span class="number">1000</span>)
 }
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">- 函数无调用者，作用域是全局</span><br><span class="line"></span><br><span class="line">- ![1583370133610](C:\Users\彭\AppData\Roaming\Typora\typora-user-images\1583370133610.png)</span><br><span class="line"></span><br><span class="line">  var a &#x3D; b &#x3D; 3 &#x2F;&#x2F; b &#x3D; 3,  var a &#x3D; b</span><br><span class="line"></span><br><span class="line">  b &#x3D; 3 ,函数内没有声明，所以往上一级找，到全局也没有，自动给定义一个b ,所以b在全局作用域下</span><br><span class="line"></span><br><span class="line">#### 闭包</span><br><span class="line"></span><br><span class="line">-  能够读取其他函数内部变量的函数。 **或简单理解为定义在一个函数内部的函数，内部函数持有外部函数内变量的引用。 **</span><br><span class="line"></span><br><span class="line">-   闭包是由函数以及创建该函数的词法环境组合而成。**这个环境包含了这个闭包创建时所能访问的所有局部变量，这些局部变量不会被销毁，可以继续使用** </span><br><span class="line"></span><br><span class="line">- &#96;&#96;&#96;javascript</span><br><span class="line">  for(var i &#x3D; 1, i &lt;&#x3D; 5, i ++) &#123;</span><br><span class="line">      setTimeout(function() &#123;</span><br><span class="line">          console.log(i)&#x2F;&#x2F; 66666</span><br><span class="line">      &#125;, 1000)</span><br><span class="line">  &#125;</span><br><span class="line">  &#x2F;&#x2F;利用闭包使函数输出612345</span><br><span class="line">  for(var i &#x3D; 1, i &lt;&#x3D; 5, i ++) &#123;</span><br><span class="line">      (function(i) &#123;</span><br><span class="line">      	setTimeout(function() &#123;</span><br><span class="line">      	    console.log(i)&#x2F;&#x2F; 12345</span><br><span class="line">      	&#125;, 1000） </span><br><span class="line">      &#125;)(i)</span><br><span class="line">  &#125;</span><br><span class="line">  console.log(i)&#x2F;&#x2F;6</span><br><span class="line">  &#x2F;&#x2F;利用函数</span><br><span class="line">  var outPut &#x3D; function(i) &#123;</span><br><span class="line">      setTimeout(function() &#123;</span><br><span class="line">          console.log(i)</span><br><span class="line">      &#125;,1000)</span><br><span class="line">  &#125;</span><br><span class="line">  for(var i &#x3D; 1, i &lt;&#x3D; 5, i ++) &#123;</span><br><span class="line">      outPut(i)</span><br><span class="line">  &#125;</span><br><span class="line">  console.log(i)</span><br><span class="line">  &#x2F;&#x2F;let</span><br><span class="line">  for(let i &#x3D; 1, i &lt;&#x3D; 5, i++) &#123;</span><br><span class="line">      setTimeout(function() &#123;</span><br><span class="line">          console.log(i)</span><br><span class="line">      &#125;,1000)</span><br><span class="line">  &#125;</span><br><span class="line">  &#x2F;&#x2F;输出123456</span><br><span class="line">  var arr &#x3D; []</span><br><span class="line">  for(var i &#x3D; 1; i &lt;&#x3D; 5; i++) &#123;</span><br><span class="line">      (function(i) &#123;</span><br><span class="line">  		arr.push(new Promise((resolve) &#x3D;&gt; &#123;</span><br><span class="line">      	    console.log(i)</span><br><span class="line">      	    resolve();</span><br><span class="line">      	&#125;))</span><br><span class="line">      &#125;)(i)</span><br><span class="line">  &#125;</span><br><span class="line">  Promise.all(arr).then(() &#x3D;&gt; &#123;</span><br><span class="line">      console.log(i)</span><br><span class="line">  &#125;)</span><br><span class="line">  &#x2F;&#x2F;定义函数方法</span><br><span class="line">  var arr &#x3D; []</span><br><span class="line">  var putout &#x3D; function(i) &#123;</span><br><span class="line">      return new Promise(resolve &#x3D;&gt; &#123;</span><br><span class="line">          console.log(i)</span><br><span class="line">          resolve();</span><br><span class="line">      &#125;)</span><br><span class="line">  &#125;</span><br><span class="line">  for(var i &#x3D; 1; i &lt;&#x3D; 5; i++) &#123;</span><br><span class="line">      arr.push(putout(i))</span><br><span class="line">  &#125;</span><br><span class="line">  Promise.all(arr).then(() &#x3D;&gt; &#123;</span><br><span class="line">      console.log(i)</span><br><span class="line">  &#125;)</span><br></pre></td></tr></table></figure>
+<span class="keyword">for</span>(<span class="keyword">var</span> i = <span class="number">1</span>, i &lt;= <span class="number">5</span>, i ++) {
+    outPut(i)
+}
+<span class="built_in">console</span>.log(i)
+<span class="comment">//let</span>
+<span class="keyword">for</span>(<span class="keyword">let</span> i = <span class="number">1</span>, i &lt;= <span class="number">5</span>, i++) {
+    setTimeout(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>{
+        <span class="built_in">console</span>.log(i)
+    },<span class="number">1000</span>)
+}
+<span class="comment">//输出123456</span>
+<span class="keyword">var</span> arr = []
+<span class="keyword">for</span>(<span class="keyword">var</span> i = <span class="number">1</span>; i &lt;= <span class="number">5</span>; i++) {
+    (<span class="function"><span class="keyword">function</span>(<span class="params">i</span>) </span>{
+        arr.push(<span class="keyword">new</span> <span class="built_in">Promise</span>(<span class="function">(<span class="params">resolve</span>) =&gt;</span> {
+            <span class="built_in">console</span>.log(i)
+            resolve();
+        }))
+    })(i)
+}
+<span class="built_in">Promise</span>.all(arr).then(<span class="function"><span class="params">()</span> =&gt;</span> {
+    <span class="built_in">console</span>.log(i)
+})
+<span class="comment">//定义函数方法</span>
+<span class="keyword">var</span> arr = []
+<span class="keyword">var</span> putout = <span class="function"><span class="keyword">function</span>(<span class="params">i</span>) </span>{
+    <span class="keyword">return</span> <span class="keyword">new</span> <span class="built_in">Promise</span>(<span class="function"><span class="params">resolve</span> =&gt;</span> {
+        <span class="built_in">console</span>.log(i)
+        resolve();
+    })
+}
+<span class="keyword">for</span>(<span class="keyword">var</span> i = <span class="number">1</span>; i &lt;= <span class="number">5</span>; i++) {
+    arr.push(putout(i))
+}
+<span class="built_in">Promise</span>.all(arr).then(<span class="function"><span class="params">()</span> =&gt;</span> {
+    <span class="built_in">console</span>.log(i)
+})
+&lt;!--￼<span class="number">26</span>--&gt;
 
+<span class="number">2.</span> 节流
 
-</code></pre></li>
-</ul>
-<h4 id="BFC"><a href="#BFC" class="headerlink" title="BFC"></a>BFC</h4><ul>
-<li><p>为了使盒子形成一个独立的空间，不会影响到外面的布局</p>
-</li>
-<li><p>常用触发规则</p>
-<ol>
-<li>float不为none</li>
-<li>pisition不为relative和static</li>
-<li>overflow为auto、scroll、和hidden</li>
-<li>display的值为table-cell或inline-block</li>
-</ol>
-</li>
-<li><p>解决的问题：</p>
-<ol>
-<li>浮动元素的父元素高度坍塌</li>
-<li>两栏自适应布局</li>
-<li>外边距垂直方向重合</li>
-</ol>
-</li>
-</ul>
-<h4 id="vue中的定时器，一般在哪个生命周期中清除"><a href="#vue中的定时器，一般在哪个生命周期中清除" class="headerlink" title="vue中的定时器，一般在哪个生命周期中清除"></a>vue中的定时器，一般在哪个生命周期中清除</h4><ul>
-<li>在beforeDestroy（）里面清除定时器，  clearInterval(this.timer);this.timer = null; </li>
-</ul>
-<h4 id="左侧固定-右侧自适应有几种方法"><a href="#左侧固定-右侧自适应有几种方法" class="headerlink" title="左侧固定, 右侧自适应有几种方法"></a>左侧固定, 右侧自适应有几种方法</h4><ol>
-<li>左侧浮动或者定位: 右侧margin-left: 宽度 </li>
-<li>BFC方法, 左侧浮动, 右侧overflow: hidden </li>
-<li>flex布局: 给父级 display: flex 左侧flex: 0 0 200px; 右侧: flex: 1 </li>
-</ol>
-<h4 id="cookie、localStorage和sessionStorage"><a href="#cookie、localStorage和sessionStorage" class="headerlink" title="cookie、localStorage和sessionStorage"></a>cookie、localStorage和sessionStorage</h4><ul>
-<li>相同点：都是存储数据，存储在web端，并都是同源</li>
-<li>不同点：<ol>
-<li>cookie 只有4K 大小 并且每一次请求都会带上cookie 体验不好，浪费带宽 </li>
-<li>session和local直接存储在本地，请求不会携带，并且容量比cookie要大的多 一般为5M</li>
-<li>session 是临时会话，当窗口被关闭的时候就清除掉 ，而 local永久存在，cookie 一般由服务器生成，可设置失效时间。如果在浏览器端生成Cookie，默认是关闭浏览器后失效 </li>
-<li>cookie 和local都可以支持多窗口共享，而session不支持多窗口共享 但是都支持a链接跳转的新窗口 </li>
-</ol>
-</li>
-</ul>
-<h4 id="防抖节流函数"><a href="#防抖节流函数" class="headerlink" title="防抖节流函数"></a>防抖节流函数</h4><ul>
-<li><p>区别</p>
-<ol>
-<li>防抖：触发事件后在n秒内函数只执行一次，若在n秒内再次触发则重新计算(只关注最后一次操作)</li>
-<li>节流：连续发生的事件只在n秒内只执行一次</li>
-</ol>
-</li>
-<li><p>实现</p>
-<ol>
-<li><p>防抖</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">debounce</span>(<span class="params">func, wait</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">let</span> timer;</span><br><span class="line">    <span class="keyword">return</span> <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(timer) clearTimeout(timer)</span><br><span class="line">        timer = setTimeout(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">            func.apply(<span class="keyword">this</span>)</span><br><span class="line">        &#125;, wait)</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>节流</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">throttle</span>(<span class="params">func, wait</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">let</span> timer;</span><br><span class="line">    <span class="keyword">return</span> <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(timer) <span class="keyword">return</span>;</span><br><span class="line">        timer = setTimeout(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">            func.apply(<span class="keyword">this</span>);</span><br><span class="line">            timer = <span class="literal">null</span>;</span><br><span class="line">        &#125;, wait)</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//时间戳</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">throttle</span>(<span class="params">func, wait</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">let</span> pre = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    	<span class="keyword">let</span> now = <span class="keyword">new</span> <span class="built_in">Date</span>();</span><br><span class="line">        <span class="keyword">if</span>(now - pre &gt; wait) &#123;</span><br><span class="line">            func.apply(<span class="keyword">this</span>);</span><br><span class="line">            pre = now;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line">     </span><br><span class="line">   </span><br><span class="line">  </span><br><span class="line">##### 函数防抖的应用场景</span><br><span class="line">  </span><br><span class="line">连续的事件，只需触发一次回调的场景有：</span><br><span class="line">  </span><br><span class="line">  - 搜索框搜索输入。只需用户最后一次输入完，再发送请求</span><br><span class="line">  - 手机号、邮箱验证输入检测</span><br><span class="line">- 窗口大小Resize。只需窗口调整完成后，计算窗口大小。防止重复渲染。</span><br><span class="line">  </span><br><span class="line">##### 函数节流的应用场景</span><br><span class="line">  </span><br><span class="line">间隔一段时间执行一次回调的场景有：</span><br><span class="line">  </span><br><span class="line">  - 滚动加载，加载更多或滚到底部监听</span><br><span class="line">  - 谷歌搜索框，搜索联想功能</span><br><span class="line">  - 高频点击提交，表单重复提交</span><br><span class="line"></span><br><span class="line">#### 数字前加零函数封装</span><br><span class="line"></span><br><span class="line">​&#96;&#96;&#96;javascript</span><br><span class="line">&#x2F;&#x2F;迭代法  </span><br><span class="line">function addZero(num, n) &#123;&#x2F;&#x2F;n位数</span><br><span class="line">	for(var i &#x3D; (num + &#39;&#39;).length; i &lt; n; i++)&#123;</span><br><span class="line">        num &#x3D; &#39;0&#39; + num;</span><br><span class="line">    &#125;</span><br><span class="line">    return num;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F;递归法</span><br><span class="line">function addZero(num, n) &#123;</span><br><span class="line">    if((num + &#39;&#39;).length &gt;&#x3D; n) &#123;</span><br><span class="line">        return num</span><br><span class="line">    &#125;</span><br><span class="line">    addZero((&#39;0&#39; + num), n)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-</li>
-</ol>
+   &lt;!--￼<span class="number">27</span>--&gt;
+&lt;!--￼<span class="number">28</span>--&gt;
+</code></pre>
 </li>
 </ul>
 <h4 id="去除字符串两边空格"><a href="#去除字符串两边空格" class="headerlink" title="去除字符串两边空格"></a>去除字符串两边空格</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">trim</span>(<span class="params">str</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> str.replace(<span class="regexp">/^\s+|\s+$/g</span>,<span class="string">""</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
