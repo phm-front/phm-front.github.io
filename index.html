@@ -952,16 +952,10 @@ function foo() {
 <li><p>脚本文件在页面底部引入</p>
 </li>
 <li><p>避免直接操作dom,对组件使用zip压缩</p>
+<p>路由守卫：简单的说，导航守卫就是路由跳转过程中的一些钩子函数。路由跳转是一个大的过程，这个大的过程分为跳转前中后等等细小的过程，在每一个过程中都有一函数，这个函数能让你操作一些其他的事儿的时机，这就是导航守卫。 </p>
 </li>
 </ol>
-<h4 id="html"><a href="#html" class="headerlink" title="html"></a>html</h4><p><img src="C:%5CUsers%5C%E5%BD%AD%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1591691440569.png" alt="1591691440569"></p>
-<h4 id="css"><a href="#css" class="headerlink" title="css"></a>css</h4><p><img src="C:%5CUsers%5C%E5%BD%AD%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1591691455697.png" alt="1591691455697"></p>
-<h4 id="js"><a href="#js" class="headerlink" title="js"></a>js</h4><p><img src="C:%5CUsers%5C%E5%BD%AD%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1591691465942.png" alt="1591691465942"></p>
-<h4 id="vue"><a href="#vue" class="headerlink" title="vue"></a>vue</h4><p><img src="C:%5CUsers%5C%E5%BD%AD%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1591694097794.png" alt="1591694097794"></p>
-<p> 路由守卫：简单的说，导航守卫就是路由跳转过程中的一些钩子函数。路由跳转是一个大的过程，这个大的过程分为跳转前中后等等细小的过程，在每一个过程中都有一函数，这个函数能让你操作一些其他的事儿的时机，这就是导航守卫。 </p>
 <p>vue和react的区别：vue最重要的是数据响应式原理，核心思想是把所有的数据放在一个对象里面，通过监听数据的改变再去改变ui；react是单向数据流ui=f(data)，特点是（无副作用 引用透明 纯函数 数据不可变），核心思想是用一个函数来表示一个组件，把数据放进去，就会把数据渲染到组件里面，修改数据不允许修改原来的数据，而是新生成一个新的数据，把数据放入函数，函数会生成一个新的ui，新生成的ui会和以前的ui进行一个dom diff,得到一个patch，把这个patch更新到dom树里面</p>
-<p><img src="C:%5CUsers%5C%E5%BD%AD%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1591695498909.png" alt="1591695498909"></p>
-<p><img src="C:%5CUsers%5C%E5%BD%AD%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1591695873677.png" alt="1591695873677"></p>
 <p>常用的plugin：html-webpack-plugin    imagemin-webpack-plugin    clean-webpack-plugin</p>
 <p>CommonsChunkPlugin配合runtimeChunk使用    mini-css-extract-plugin    copy-webpack-plugin</p>
 <p>dll-plugin     </p>
